@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --unstable-kv --allow-net --allow-env --allow-read --watch --env  --allow-import  --unstable-cron  poll.ts"
+  },
+  "imports": {}
+}

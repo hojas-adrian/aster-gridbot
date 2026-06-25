@@ -1,0 +1,24 @@
+# Dependencies
+deno.lock
+
+# Environment
+.env
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+
+# Documentation
+README.md
+ARCHITECTURE.md
+
+# Docker
+Dockerfile
+.dockerignore
