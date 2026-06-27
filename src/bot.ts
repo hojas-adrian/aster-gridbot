@@ -10,7 +10,7 @@ export const bot = new Bot(botToken);
 bot.use(limit());
 
 bot.command("start", onCommandStart);
-//bot.command("grid", onCommandTrade);
+bot.command("grid", onCommandTrade);
 bot.command("eval", onCommandEval);
 bot.command("close", onCommandClose);
 //bot.on("message", placeOrder);
